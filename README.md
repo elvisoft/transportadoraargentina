@@ -1,6 +1,6 @@
 # Transportadora Argentina
 
-Sistema de gestión para empresas de transporte (TMS - Transport Management System), desarrollado con **Laravel 13** y **Livewire 4**.
+Sistema de gestión para empresas de transporte (TMS - Transport Management System), desarrollado con **Laravel 13** y **Livewire 4** + Base de datos Mysql.
 
 ## Descripción
 
@@ -57,9 +57,9 @@ Editá el archivo `.env` y configurá la conexión a MySQL:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=transportadoraargentina
+DB_DATABASE=laraveltransport
 DB_USERNAME=root
-DB_PASSWORD=tu_contraseña
+DB_PASSWORD=tu_contraseña o deja vacio si no es necesario
 ```
 
 ### 5. Ejecutar las migraciones
